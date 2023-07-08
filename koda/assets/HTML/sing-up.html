@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- chamada da CDN Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- chamda do root -->
+    <link rel="stylesheet" href="../Css/root.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- chamada do css -->
+    <link rel="stylesheet" href="../Css/style-sign-up.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <form action="" name="dados" method="post" class="form">
+          <h2>Cadastro</h2>
+
+          <div class="inputbox">
+            <label for="nome">Nome Completo</label>
+            <div class="field">
+              <i class="fa-regular fa-user"></i>
+              <input type="text" name="nome" id="nome" required />
+            </div>
+          </div>
+
+          <div class="inputbox">
+            <label for="email">Email</label>
+            <div class="field">
+              <i class="fa-regular fa-envelope"></i>
+              <input type="email" name="email" id="email" required />
+            </div>
+          </div>
+
+          <div class="inputbox">
+            <label for="password">Senha</label>
+            <div class="field">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" name="password" id="password" required />
+            </div>
+          </div>
+
+          <button type="submit" id="login-botao">Criar conta</button>
+
+          <div id="back-page">
+            <a href="./index.html">voltar ao menu principal</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

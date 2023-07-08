@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- chamada da CDN Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- chamda do root -->
+    <link rel="stylesheet" href="../Css/root.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- chamada do css -->
+    <link rel="stylesheet" href="../Css/style-index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- imagem ilutrando o app -->
+      <div class="box" id="left-box">
+        <h2>Koda</h2>
+        <p>
+          Transforme seus sonhos em realidade: o aplicativo ideal para gerenciar
+          e organizar suas finanças e investimentos
+        </p>
+      </div>
+      <!-- formulario -->
+      <div class="box" id="rigth-box">
+        <div class="alinhamento">
+          <div class="form-box">
+            <div class="form-value">
+              <form
+                action=""
+                id="dados"
+                name="dados"
+                method="post"
+                class="form"
+              >
+                <h3>login</h3>
+
+                <div class="inputbox">
+                  <label for="email">Email</label>
+                  <div class="field">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" name="email" id="email" required />
+                  </div>
+                </div>
+
+                <div class="inputbox">
+                  <label for="password">Senha</label>
+                  <div class="field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <!-- Outras formas de login -->
+
+                <div class="container-outros-login">
+                  <div class="outros-login google">
+                    <button><i class="fa-brands fa-google"></i></button>
+                  </div>
+                  <div class="outros-login facebook">
+                    <button><i class="fa-brands fa-facebook"></i></button>
+                  </div>
+                  <div class="outros-login apple">
+                    <button><i class="fa-brands fa-apple"></i></button>
+                  </div>
+                </div>
+
+                <!-- lembrar de mim -->
+                <div class="forget">
+                  <input type="checkbox" name="checkbox" id="checkbox" />
+                  <label for="checkbox">Lembrar de mim</label>
+                </div>
+
+                <!-- botão de confirmação -->
+                <button type="submit" id="login-botao">Login</button>
+
+                <div id="forget_password">
+                  <a href="#">não consigo iniciar sessão</a>
+                </div>
+
+                <div class="sing_up">
+                  <p>não tem uma conta?</p>
+                  <a href="./sing-up.html"><p>Criar conta</p></a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
